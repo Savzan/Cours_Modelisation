@@ -39,7 +39,7 @@ pfit, pcov = curve_fit(malus, angle, IntensiteRes)
 #TODO faire un graphique à peu prêt correct
 Ith2 = malus(angleTh, *pfit)
 plt.plot(angleTh, Ith2,'g--',label=str(pfit[0])[0:6])
-plt.xlabel('$Angle$', fontsize = 14)
+plt.xlabel(r'${\rm angle}\ \varphi\ \rm [deg]$', fontsize = 14)
 plt.ylabel('$Intensité$', fontsize = 14)
 
 plt.legend(fontsize = 14)
