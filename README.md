@@ -17,6 +17,8 @@ Ajout d'une courbe expérimentale, comparaison avec une première approximation 
 puis fitting de la courbe avec curve_fit()
 Génération également d'une courbe de tendance sur une fonction linéaire sur laquelle on a ajouté un bruit artificiel
 
+<img src="TD3/pendule.png" width="300">
+
 TD 3 - Équations différentielles ordinaires
 Brève utilisation d'odeint() sur le problème du pendule, 
 introduction également aux animations avec le module animation de matplotlib
