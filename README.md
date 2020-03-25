@@ -16,9 +16,9 @@ Introduction aux outils scientifiques proposés par python, avec scipy et matplo
 Ajout d'une courbe expérimentale, comparaison avec une première approximation à main levée,
 puis fitting de la courbe avec curve_fit()
 Génération également d'une courbe de tendance sur une fonction linéaire sur laquelle on a ajouté un bruit artificiel
-
+<center>
 <img src="TD2/distribution.png" width="450">
-
+</center>
 TD 3 - Équations différentielles ordinaires
 Brève utilisation d'odeint() sur le problème du pendule, 
 introduction également aux animations avec le module animation de matplotlib
