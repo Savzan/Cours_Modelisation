@@ -1,8 +1,6 @@
 # Cours_Modelisation
 
 """
-Created on Mon Jan 27 19:03:30 2020
-
 @author: Yoann Mollier
 """
 
