@@ -23,9 +23,9 @@ Génération également d'une courbe de tendance sur une fonction linéaire sur 
 TD 3 - Équations différentielles ordinaires
 Brève utilisation d'odeint() sur le problème du pendule, 
 introduction également aux animations avec le module animation de matplotlib
-
+<p align="center">
 <img src="TD3/pendule.png" width="450">
-
+</p>
 TD 4 - Oscillations et résonance
 Étude physique du problème de l'oscillateur harmonique et oscillateur harmonique forcé
 Différentes méthodes de construction de graphiques avec notamment l'insertion du diagramme de phase
@@ -38,9 +38,9 @@ Animation de notre paquet d'onde en prenant en compte les déformations qu'il pe
 TD 6 - Électrostatique 2D
 Utilisation de la méthode complexe pour afficher les lignes de champs issus de charges ponctuelles
 Puis comparaison de notre méthode numérique avec des valeurs de tensions mesurées au bornes d'un condensateur
-
+<p align="center">
 <img src="TD6/quadripole.png" width="450">
-
+</p>
 TD 7 - Isothermes de l'équation d'état de van der Waals
 Construction d'un graphique d'isotherme en fonction de V et de T,
 Ce diagramme nous permet ensuite de construire les paliers de Maxwell pour différentes températures,
