@@ -87,29 +87,3 @@ plt.plot(V, p(V, TEMP), '-k')
 bV = np.linspace(v1, v2, 181) # trace les points entre V1 et V2
 plt.fill_between(bV, p(bV, TEMP), p(v1,TEMP), color ='yellow')
 plt.legend(loc = 1)
-
-#%% Courbes d'insaturation
-#Tentative d'extrapolation en utilisant la méthode précédente
-#mais génère des artefacts
-Temperature = T = np.arange(0.76, 1.01, 0.02)
-va = []
-vb = []
-pa = []
-pb = []
-for t in Temperature:
-    pisol = fsolve(ToBe0, p(1,t), t)[0]
-    va += [fsolve(comparaison, 0.5, args=(t, pisol,))[0]]
-    vb += [fsolve(comparaison, 4.0, args=(t, pisol,))[0]]
-    pa += [p(fsolve(comparaison, 0.5, args=(t, pisol,))[0], t)]
-    pb += [p(fsolve(comparaison, 4.0, args=(t, pisol,))[0], t)]
-    
-va += [1]
-vb += [1]
-pa += [1]
-pb += [1]
-
-plt.plot(va, pa, '-k', label = 'Courbe d\'ébullition')
-plt.plot(vb, pb, '-.k', label = 'Courbe de rosée')
-plt.xlabel(r'$Volume, v = V/V_c$')
-plt.ylabel(r'$Pression, p = P/P_c$')
-plt.legend(loc = 1) #Légendes en haut à droite du graphique
