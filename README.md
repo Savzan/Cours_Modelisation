@@ -17,13 +17,13 @@ Ajout d'une courbe expérimentale, comparaison avec une première approximation 
 puis fitting de la courbe avec curve_fit()
 Génération également d'une courbe de tendance sur une fonction linéaire sur laquelle on a ajouté un bruit artificiel
 
-<img src="TD2/distribution.png">
+<img src="TD2/distribution.png" width="450">
 
 TD 3 - Équations différentielles ordinaires
 Brève utilisation d'odeint() sur le problème du pendule, 
 introduction également aux animations avec le module animation de matplotlib
 
-<img src="TD3/pendule.png">
+<img src="TD3/pendule.png" width="450">
 
 TD 4 - Oscillations et résonance
 Étude physique du problème de l'oscillateur harmonique et oscillateur harmonique forcé
@@ -38,7 +38,7 @@ TD 6 - Électrostatique 2D
 Utilisation de la méthode complexe pour afficher les lignes de champs issus de charges ponctuelles
 Puis comparaison de notre méthode numérique avec des valeurs de tensions mesurées au bornes d'un condensateur
 
-<img src="TD6/quadripole.png">
+<img src="TD6/quadripole.png" width="450">
 
 TD 7 - Isothermes de l'équation d'état de van der Waals
 Construction d'un graphique d'isotherme en fonction de V et de T,
